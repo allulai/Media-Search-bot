@@ -98,7 +98,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')       
+                        InlineKeyboardButton('Bot Updates Channel', url='https://t.me/TheFilmFanatics')      
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
