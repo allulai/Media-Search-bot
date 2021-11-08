@@ -98,10 +98,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('Bot Updates Channel', url='https://t.me/TheFilmFanatics')      
-                    ],
-                    [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton('Bot Updates Channel', url='https://t.me/TheFilmFanatics')
                     ]
                 ]
             )
@@ -190,7 +187,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/TheFilmFanatics'),
+            InlineKeyboardButton('Updates Channel', url='https://t.me/TheFilmFanatics'),
             InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
         ]
         ]
