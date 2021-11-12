@@ -31,7 +31,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("👾 JOIN UPDATES CHANNEL 👾", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
@@ -85,7 +85,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("👾 JOIN UPDATES CHANNEL 👾", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -188,7 +188,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('Updates Channel', url='https://t.me/TheFilmFanatics'),
-            InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+            InlineKeyboardButton('Source Code', url='https://t.me/nokiyirunnoippokitum/2')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/TheFilmFanatics'>TheFilmFanatics</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/nokiyirunnoippokitum/2'>Click here</a>\nUpdate Channel : <a href='https://t.me/TheFilmFanatics'>TheFilmFanatics</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
