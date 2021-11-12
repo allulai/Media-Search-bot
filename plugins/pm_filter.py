@@ -30,7 +30,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                            InlineKeyboardButton("👾 JOIN UPDATES CHANNEL 👾", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -289,10 +289,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Updates Channel', url='https://t.me/TheFilmFanatics'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton('Source Code', url='https://t.me/nokiyirunnoippokitum/2')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/fanaticadminbot'>FANATIC</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdates Channel : <a href='https://t.me/TheFilmFanatics'>Fanatics</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/fanaticadminbot'>FANATIC</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/nokiyirunnoippokitum/2'>Click here</a>\nUpdates Channel : <a href='https://t.me/TheFilmFanatics'>Fanatics</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
